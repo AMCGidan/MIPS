@@ -1,0 +1,10 @@
+simulator:
+        javac CPU.java InstructionCache.java Memory.java DataCache.java Registe\
+r.java Main.java
+
+run:
+        java Main
+
+clean:
+        -rm CPU.class InstructionCache.class Memory.class DataCache.class Regis\
+ter.class Main.class
